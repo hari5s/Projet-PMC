@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",   // Utiliser la dernière version d'ES
+    "module": "commonjs",  // Utiliser le module commonjs
+    "outDir": "./dist",    // Dossier de sortie pour les fichiers compilés
+    "rootDir": "./src",    // Dossier source
+    "strict": true,        // Activer le mode strict
+    "esModuleInterop": true,  // Pour la compatibilité avec les modules ES
+    "skipLibCheck": true,  // Ignorer les vérifications de bibliothèque
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "lib": [
+      "ESNext",  // Utiliser ESNext pour inclure toutes les fonctionnalités modernes
+      "dom",     // Ajouter l'environnement DOM si nécessaire
+      "dom.iterable"  // Ajouter le support pour les itérateurs dans le DOM
+    ]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

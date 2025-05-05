@@ -1,8 +1,8 @@
 import { ControllerInterface } from './ControllerInterface';
-import { ServerAdapterInterface } from '../server/ServerAdapterInterface';
+import { ServerAdapterInterface } from '../../server/ServerAdapterInterface';
 import { UserServiceInterface } from '../services/UserServiceInterface';
-import { CarServiceInterface } from '../services/CarServiceInterface';
-import { Request, Response } from '../types/http';
+import { CarServiceInterface } from '../services/QuoteServiceInterface';
+import { Request, Response } from '../../types/http';
 import { User } from '../models/User';
 import { Car } from '../models/Car';
 
